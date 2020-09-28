@@ -7,5 +7,5 @@ Salvo BattleShip
 
 
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![GitHub Logo](/src/main/resources/static/web/css/image/fondo1.jpg)
+

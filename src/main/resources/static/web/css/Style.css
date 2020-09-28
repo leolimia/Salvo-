@@ -1,0 +1,203 @@
+body {
+	background-image: url("image/fondo1.jpg");
+	/* Background image is centered vertically and horizontally at all times */
+	background-position: center center;
+
+	/* Background image doesn't tile */
+	background-repeat: no-repeat;
+	/* Background image is fixed in the viewport so that it doesn't move when 
+		the content's height is greater than the image's height */
+	background-attachment: fixed;
+	background-size: cover;
+}
+#list {
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 0.7788500816993464) 0%,
+		rgba(9, 9, 121, 0.5893075980392157) 35%,
+		rgba(144, 129, 129, 0.5631638071895425) 100%
+	);
+	border-radius: 5px;
+	padding: 0.5em 1em;
+	margin: 0 1em;
+}
+li {
+	color: wheat;
+	border-radius: 5px;
+}
+ol,
+li > p {
+	border-radius: 5px;
+}
+
+h1 {
+	color: white;
+	mix-blend-mode: difference;
+	font-size: 10vh; /*Viewport units (vh y vw) : vh y vw  son unidades de longitud relativas a la pantalla de visualización*/
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 0.5vh 0.5vh brown;
+}
+h3,
+h2 {
+	color: white;
+	font-weight: bolder;
+	text-shadow: 3px 3px brown;
+	padding: 0.5em;
+}
+option {
+	font-weight: bolder;
+	text-shadow: 3px 3px;
+	padding: 0.5em;
+	color: brown;
+}
+.table th,
+.table td,
+#table {
+	color: white;
+	font-weight: bolder;
+	text-shadow: 2px 2px brown;
+}
+.table,
+#table {
+	border: 0.5em solid;
+	border-color: black;
+	text-align: center;
+	background-image: url("image/stormy-seas.jpg");
+}
+
+#leaderboard {
+	text-align: center;
+	background-image: url("image/stormy-seas.jpg");
+}
+.sea {
+	border-left: 0.2em solid cornsilk;
+	border-bottom: 0.2em solid cornsilk;
+}
+thead,
+.colum {
+	background-image: url("image/oxido.jpg");
+}
+.hit {
+	background-image: url("image/explosion.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 20;
+}
+.salvo,
+.lost {
+	background-image: url("image/waterHit.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 5;
+}
+#grid-ships {
+	position: relative;
+	z-index: 99;
+	width: 456px;
+	height: 456px;
+	padding-left: 40px;
+	padding-top: 40px;
+	border: 0.5em solid;
+	border-color: black;
+	background-image: url("image/grid-bkg.png");
+	background-size: contain;
+}
+#grid {
+	height: 400px;
+	width: 400px;
+}
+#gridproblem {
+	background-image: url("image/stormy-seas.jpg");
+	background-size: cover;
+	max-width: 456px !important;
+	min-width: 456px !important;
+}
+.CarrierHorizontal {
+	background-image: url("image/carrier.npg.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+	display: block;
+	width: 100%;
+}
+.BattleshipHorizontal {
+	background-image: url("image/Battleship.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 3;
+}
+.SubmarineHorizontal {
+	background-image: url("image/submarino.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+}
+.DestroyerHorizontal {
+	background-image: url("image/Destroyer.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+}
+.Patrol-BoatHorizontal {
+	background-image: url("image/patrol.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+}
+.CarrierVertical {
+	background-image: url("image/carrierV.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+}
+.BattleshipVertical {
+	background-image: url("image/BattleshipV.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 3;
+}
+.SubmarineVertical {
+	background-image: url("image/submarinoV.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+}
+.DestroyerVertical {
+	background-image: url("image/DestroyerV.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+}
+.Patrol-BoatVertical {
+	background-image: url("image/patrolV.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+}
+
+.grid-stack-item-content {
+	background-repeat: no-repeat;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	left: 0px !important;
+	right: 0px !important;
+}
+.mira {
+	background-image: url("image/mira.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
